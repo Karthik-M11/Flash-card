@@ -7,7 +7,7 @@ BACKGROUND_COLOR = "#B1DDC6"
 ran_item = ()
 pre_item = ()
 
-ran_val = pandas.read_csv(r"C:\Users\karth\OneDrive\Documents\NITC\RIG\Python\flash card\data\french_words.csv")
+ran_val = pandas.read_csv(r"data\french_words.csv")
 new_dict = {row.French: row.English for (index, row) in ran_val.iterrows()}
 
 
